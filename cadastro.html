@@ -11,31 +11,29 @@
 
     </head>
     <body>
-        <style>
-            body{
-                background-color: #FF383E;
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-
-        <header>
+       
+        <header class="header-paginas">
             <div class="topo">
-                <img class="img-logo" src="imagens/logo.png">
+                <a href="./index.html">
+                    <img class="img-logo" src="imagens/logo.png">
+                </a>
                 <div class="texto-top">
-                    <h1 class="fonte-vermelho">CADASTRE-SE</h1>
-              
+                    <h1 class="fonte-vermelho fonte-margin-paginas">CADASTRE-SE</h1>
                 </div>
                 
-        </div>
+            </div>
         </header>
         <main>
-            <h2 class="fonte-branco"> ESCOLHAS MAIS SAUDÁVEIS </h2>
+            <h2 class="fonte-branco"> CRIE SUA CONTA </h2>
 
             <div class="alinhamento-centro">
-                <button class="button-fonte-grande" onclick="window.open('./cadastro.html','_self') " >Cadastre-se</button>
-                <button class="button-fonte-grande"onclick="window.open('./novo-treino.html','_self') ">Novo Treino</button>
-                <button class="button-fonte-grande"onclick="window.open('./treinos.html','_self') ">Treinos</button>
+                <form >
+                    <input id="nome" type="text" placeholder="Nome">
+                    <input id="email" type="email" placeholder="Email">
+                    <input id="senha" type="password" placeholder="Senha">
+                </form>
+                <button class="button-fonte-pequena" onclick="salvarusuario()" >Cadastrar</button>
+                
             </div>
 
         </main>
@@ -57,5 +55,8 @@
             </div>
 
         </footer>
+        
+        <script src="javascript/script.js"> </script>
+
     </body>
 </html>
