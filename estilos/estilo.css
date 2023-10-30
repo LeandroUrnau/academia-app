@@ -1,0 +1,113 @@
+<style>
+
+body{
+    background-color: #FF383E;
+
+}
+
+header{
+    background-image: url("../imagens/imagem_topo.png");
+    background-position:center;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+h1{
+    text-align: left;
+    font-size: 75px;
+    font-family: 'anton', sans-serif;
+    margin: 0;
+}
+.fonte-vermelho{
+    margin-top: 99px;
+    color: #FF383E;
+    font-family: 'Anton';
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px; /* 100% */
+}
+.fonte-branco{
+    color: #ffffff;
+    font-family: 'Anton';
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px
+}
+
+.header-paginas{
+    height: 331px;
+    background-size: cover;
+}
+
+.topo {
+    text-align: center;
+}
+
+.img-logo {
+    margin-top: 60px;
+    width: 380px;
+}
+
+.texto-top {
+    width: 404px;
+    margin: auto;
+    text-align: center;
+
+}
+
+button {
+    width: 249px;
+    height: 83px;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 45px;
+}
+
+.button-fonte-grande{
+    color: #FFF;
+    text-align: center;
+    font-family: Anton;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 128.571% */
+}
+
+h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Anton;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 100% */
+}
+
+.alinhamento-centro{
+    width: 404px;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    background-image: url("../imagens/imagem_r.png");
+    padding-top: 1px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p{
+    color: #FFF;
+    font-family: "Rounded Mplus 1c Bold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+    text-align: left;
+}
+
+</style>
