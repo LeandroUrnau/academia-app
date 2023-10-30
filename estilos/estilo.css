@@ -1,8 +1,5 @@
-
-
 body{
     background-color: #FF383E;
-
 }
 
 header{
@@ -15,8 +12,6 @@ header{
 .header-paginas{
     height: 331px;
     background-size: cover;
-  
-
 }
 
 h1{
@@ -25,6 +20,7 @@ h1{
     font-family: 'anton', sans-serif;
     margin: 0;
 }
+
 .fonte-vermelho{
     margin-top: 99px;
     color: #FF383E;
@@ -107,7 +103,7 @@ h2{
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
-    line-height: 45px; /* 100% */
+    line-height: 45px;
 }
 
 .alinhamento-centro{
@@ -158,5 +154,64 @@ input:focus {
 input::placeholder{
     color: #FFF;
     text-align: left;
+}
 
+.modal{ 
+    visibility: hidden;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-body {
+    background-color: #000;
+    width: 377px;
+    height: 211px;
+    margin: 30px 15px;
+}
+
+.modal-body h4{
+    color: #FFF;
+    font-family: Anton;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0;
+}
+
+.modal-body h3{
+    color: #FF383E;
+    font-family: Anton;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0;
+}
+
+.modal-body button{
+    position: absolute;
+    margin-left: 340px;
+    color: #FFF;
+    font-family: Anton;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    width: 30px;
+    height: 30px;
 }
