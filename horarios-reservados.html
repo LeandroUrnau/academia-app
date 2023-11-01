@@ -24,33 +24,38 @@
             </div>
         </header>
         <main>
-            <h2 class="fonte-branco">Escolha o melhor horário para você</h2>
-
             <div class="alinhamento-centro">
-                <form >
-                    <input id="nome" type="text" placeholder="Nome">
-                    <input id="data" type="date">
-                    <input id="hora" type="time">
-                    <select id="treino">
-                        <option value="Musculação">Musculação</option>
-                        <option value="Aeróbico">Aeróbico</option>
-                    </select>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Data</th>
+                            <th>Hora</th>
+                            <th>Treino</th>
+                        </tr>
+                    </thead>
+                    <tbody>
 
-                </form>
-                <button class="button-fonte-pequena" onclick="salvarNaAgenda()" >Cadastrar</button>
-            </div>
-
-            <div id="modal-cadastro" class="modal">
-                <div class="modal-body">
-                    <button onclick="fechar()" class="close">X</button>
-
-                    <a href="./novo-treino.html">
-                        <h3>Treino cadastrado com Sucesso!</h3>
-                        
-                    </a>
-                 
-                </div>
-                
+                        <tr>
+                            <td>Joao</td>
+                            <td>22/10/2023</td>
+                            <td>16:50</td>
+                            <td>Musculação</td>
+                        </tr>
+                        <tr>
+                            <td>Joao</td>
+                            <td>22/10/2023</td>
+                            <td>16:50</td>
+                            <td>Musculação</td>
+                        </tr>
+                        <tr>
+                            <td>Joao</td>
+                            <td>22/10/2023</td>
+                            <td>16:50</td>
+                            <td>Musculação</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
         </main>

@@ -114,7 +114,9 @@ h2{
     width: 404px;
     margin: auto;
     text-align: center;
+    
 }
+
 footer{
     background-image: url("../imagens/imagem_r.png");
     padding-top: 1px;
@@ -134,7 +136,24 @@ p{
 
 input{
     margin-top: 23px;
-    width: 332;
+    width: 332px;
+    height: 60px;
+    background: #000;
+    border: #000;
+    border-radius: none;
+    color: #ffffff;
+    padding-left: 35px;
+    font-family: Anton;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    box-sizing: content-box;
+}
+
+select {
+    margin-top: 23px;
+    width: 332px;
     height: 60px;
     background: #000;
     border: #000;
@@ -147,17 +166,12 @@ input{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    box-sizing: content-box;
 }
 
-input:focus {
-    box-shadow: 0 0 0 0;
-    border: none;
-    outline: 0;
-}
 
 input::placeholder{
     color: #FFF;
-    text-align: left;
 }
 
 .modal{ 
@@ -223,4 +237,28 @@ input::placeholder{
     line-height: 45px; /* 150% */
     width: 30px;
     height: 30px;
+}
+
+table {
+    color: #ffffff;
+    border-collapse: collapse;
+
+}
+
+tbody{
+    background-color: #000000;
+}
+
+tbody td{
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+
+}
+
+tbody tr:first-child td{
+    border-top: none;
+}
+
+tbody td:first-child {
+    border-left: none;
 }
