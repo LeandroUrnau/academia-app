@@ -188,6 +188,9 @@ input::placeholder{
     margin: 30px 15px;
 }
 
+.modal-body a{
+    text-decoration: none;
+}
 .modal-body h4{
     color: #FFF;
     font-family: Anton;
